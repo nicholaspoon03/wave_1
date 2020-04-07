@@ -42,7 +42,7 @@ def rev_units_of_time():
         
 
 def current_time():
-    seconds = time.time()
+    print(time.asctime())
 
 
 if __name__ == '__main__':
